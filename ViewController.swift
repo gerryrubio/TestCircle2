@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBInspectable var circleColor: UIColor? {
         didSet {
-            view1.layer.backgroundColor = self.view1.backgroundColor as! CGColor
+            view1.layer.backgroundColor = (self.view1.backgroundColor as! CGColor)
         }
     }
     @IBOutlet weak var view1: UIView!
